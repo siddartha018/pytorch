@@ -310,7 +310,6 @@ tools/bazel
 
 # Visual Studio Code files
 .vs
-/.vscode/*
 !/.vscode/extensions.json
 !/.vscode/settings_recommended.json
 
@@ -350,7 +349,6 @@ bazel-*
 xla/
 
 # direnv, posh-direnv
-.env
 .envrc
 .psenvrc
 
@@ -410,3 +408,5 @@ CLAUDE.local.md
 /debug_*.py
 CLAUDE_CONTEXT/
 /.claude/settings.local.json
+config.bat
+node_modules
